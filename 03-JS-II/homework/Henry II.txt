@@ -1,0 +1,10 @@
+FOR: Es un bucle que se ejecutará siempre que se cumpla una condición predefinida. 
+Al dejar de cumplirse dicha condición, el bucle finaliza y continúa la ejecución del programa.
+
+&&: Es un operador booleano. Evalúa dos condiciones y si ambas son verdaderas devuelve VERDADERO. 
+En cualquier otro caso, devuelve FALSO.
+
+||: Operador booleano que evalúa dos condiciones y devuelve VERDADERO cuando al menos una de ellas sea VERDADERA.
+Si ambas son falsas, devuelve FALSO.
+
+!: Operador booleano de negación. Devuelve el valor opuesto al que evalúe.
