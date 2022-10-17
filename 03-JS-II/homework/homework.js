@@ -176,8 +176,8 @@ function doWhile(numero) {
   let i=0;
   
   do {
-    numero += 5
-    i++
+    numero += 5;
+    i++;
   } while (i < 8);
   return numero;
 }
