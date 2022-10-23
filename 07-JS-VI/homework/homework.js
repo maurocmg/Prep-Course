@@ -27,7 +27,11 @@ function sumarArray(numeros, cb) {
   //Tu código:
   //cb(numeros.reduce(res, n) {return res + n});
   let suma = 0;
+<<<<<<< HEAD
   suma = numeros.reduce(function (res, n) {return res + n});
+=======
+  suma = numeros.reduce(res, n) {return res + n};
+>>>>>>> 23e8813ea51c006f1c4d1055a21606f1b17c5aa5
   cb(suma);
 }
 
@@ -43,8 +47,14 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
+<<<<<<< HEAD
   return array.map(cb);
  }
+=======
+  let nuevo = [];
+  nuevo.push(array.map(cb));
+}
+>>>>>>> 23e8813ea51c006f1c4d1055a21606f1b17c5aa5
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
@@ -53,7 +63,11 @@ function filter(array) {
   let nuevo = [];
 
   array.forEach(function (elemento) {
+<<<<<<< HEAD
     if (elemento.charAt(0) === 'a') nuevo.push(elemento)  
+=======
+    if (elemento.includes('a')) nuevo.push(elemento)  
+>>>>>>> 23e8813ea51c006f1c4d1055a21606f1b17c5aa5
   });
   return nuevo;
 }
